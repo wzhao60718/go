@@ -1,0 +1,5 @@
+{
+  "mongodburl" : "mongodb://<db-name>:<user>@<mongodb-domain>:<port>/<db-name>",
+  "mongodbname" : "<db-name>",
+  "httpserverdir" : "/www/angular-app/dist/angular/"
+}
