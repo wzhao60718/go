@@ -1,2 +1,2 @@
 # go
-Project Go
+Go Application Server
