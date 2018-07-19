@@ -212,7 +212,7 @@ func main() {
   })
 
   http.HandleFunc("/welcome", func(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, " website, J & W !")
+    fmt.Fprintf(w, "Welcome!")
   })
   
   fs := http.FileServer(http.Dir(local_config.HttpServerDir))
